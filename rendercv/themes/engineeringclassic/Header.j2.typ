@@ -5,7 +5,7 @@
   left-content: [
     #align(
       left + horizon,
-      image("profile_picture.jpg", width: design-header-photo-width),
+      image(<<cv.photo>>, width: design-header-photo-width),
     )
   ],
   column-gutter: 0cm,
